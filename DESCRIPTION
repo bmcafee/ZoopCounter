@@ -1,0 +1,18 @@
+Package: ZoopCounter
+Type: Package
+Title: Zooplankton Counter
+Version: 0.1.0
+Author: Bennett McAfee
+Maintainer: Bennett McAfee <bennettjmcafee@gmail.com>
+Description: Opens a tally counter designed for counting Zooplankton, but can be used for any tallying purposes. Use ZoopCounter() with a list of names to create a window with the counter. Use and edit keyboard shortcuts to make counting faster.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: R (>= 4.1.0)
+Imports:
+    gWidgets2,
+    gWidgets2tcltk,
+    stringr,
+    utils
