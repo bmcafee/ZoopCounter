@@ -4,6 +4,7 @@
 # How to Install
 
 library(devtools)
+
 devtools::install_github("bmcafee/ZoopCounter")
 
 # How to Use
